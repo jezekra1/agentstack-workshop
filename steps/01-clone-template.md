@@ -35,6 +35,8 @@ See the README.md for repository structure and more details.
 The agent should now show up in `agentstack list` as `example_agent` and also in `agenstack ui`. You can try sending
 a message using `agentstack run <your-name>`, you should get a polite greeting.
 
+![example-agent](../assets/01-example-agent.png)
+
 Now we are ready to modify the agent with our code, see the next
 part: **[02-create-mcp-agent](./02-create-mcp-agent.md)**.
 

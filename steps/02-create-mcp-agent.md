@@ -76,6 +76,8 @@ Now our agent should be ready to search flights! Try running it in the UI with a
 search flights from Prague to Gran Canaria on 13/11/2025 and return 15/11/2025.
 ```
 
+![mcp-agent](../assets/02-mcp-agent.png)
+
 We are now ready for the next step! **[03-add-form](./03-add-form.md)**
 
 

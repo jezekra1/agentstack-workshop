@@ -260,4 +260,8 @@ if interactive_html_bytes is not None:
 
 ```
 
+![static-map](../assets/04-static-map.png)
+
+Interactive map: [flights.html](https://raw.githack.com/jezekra1/agentstack-workshop/main/assets/04-flights.html)
+
 Now we are ready to make the visualizations configurable **[05-add-settings](./05-add-settings.md)**

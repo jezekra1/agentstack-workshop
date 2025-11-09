@@ -40,9 +40,11 @@ def run():
 Now open up your browser at `http://localhost:6006` and you should see traces for new messages
 to the agent.
 
+![phoenix](../assets/07-phoenix.png)
+
 ## Final step: profit
 
 Congratulations! You've made it to the end of the workshop.
 
 As a bonus, you can try adding the citation extension to show the users where the data come from, see
-[citations documentation](https://agentstack.beeai.dev/build-agents/citations).
+[citations documentation](https://agentstack.beeai.dev/extensions/citations)

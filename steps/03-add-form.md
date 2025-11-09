@@ -53,4 +53,6 @@ async def flight_search_agent():
 
 ```
 
-Next let's visualize our data! **[04-visualize-results](./04-visualize-results.md)**
+![form](../assets/03-form.png)
+
+Next, let's visualize our data! **[04-visualize-results](./04-visualize-results.md)**

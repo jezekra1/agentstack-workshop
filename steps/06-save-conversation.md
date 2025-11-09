@@ -58,5 +58,7 @@ The conversation should now appear in the chat history panel in the UI and you c
 `context.load_history()` in the agent to fetch previous messages and pass them to the agent to continue the
 conversation.
 
+![conversation](../assets/06-conversation.png)
+
 Finally, let's observe the agent behavior using Arize Phoenix in the next section:
 **[07-observability](./07-observability.md)**.

@@ -65,5 +65,7 @@ async def flight_search_agent(...):
         ...
 ```
 
+![settings](../assets/05-settings.png)
+
 Let's move on to the next topic: **[06-save-conversation](./06-save-conversation.md)**
 
