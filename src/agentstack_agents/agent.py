@@ -155,16 +155,6 @@ async def flight_search_agent(
         final_message.parts.append(file.to_file_part())
         yield file.to_file_part()
 
-    citations = [
-        {
-            "url": "https://kiwi.com",
-            "title": "Stack Overflow Developer Survey 2023",
-            "description": "Annual survey of developer preferences and trends",
-            "start_index": 0,
-            "end_index": 47,  # "Python is the most popular programming language"
-        }
-    ]
-
     yield citation.message(citations=[Citation(url="https://kiwi.com", title="Kiwi.com, search engine for flights")])
     await context.store(final_message)
 
