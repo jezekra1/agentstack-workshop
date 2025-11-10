@@ -78,7 +78,7 @@ async def flight_search_agent(
     _: Annotated[PlatformApiExtensionServer, PlatformApiExtensionSpec()],
     context: RunContext,
 ) -> AsyncGenerator[RunYield, RunYieldResume]:
-    """Polite agent that greets the user"""
+    """Search and visualize flights"""
     await context.store(input)
 
     llm = AgentStackChatModel(parameters=ChatModelParameters(stream=True))
